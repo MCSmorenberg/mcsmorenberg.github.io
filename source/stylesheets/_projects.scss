@@ -1,0 +1,18 @@
+
+.project {
+  background-color: #e7e7e7;
+  box-shadow: 2px 3px 2px #9f9f9f;
+  padding: 5px 20px 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project:hover {
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  transform: scale(1.01);
+  box-shadow: 4px 5px 4px #9f9f9f;
+}
