@@ -730,18 +730,18 @@ table {
 /* Literal.Number.Integer.Long */
 /* line 1, _font.scss */
 h2 {
-  font-size: 24px;
+  font-size: 28px;
   line-height: 20px; }
 
 /* line 6, _font.scss */
 h3 {
-  font-size: 18px;
+  font-size: 22px;
   line-height: 18px;
   color: #80008f; }
 
 /* line 12, _font.scss */
 p {
-  font-size: 12px; }
+  font-size: 16px; }
 
 @media screen and (max-width: 480px) {
   /* line 17, _font.scss */
