@@ -740,7 +740,7 @@ h3 {
   color: #80008f; }
 
 /* line 12, _font.scss */
-p li {
+p {
   font-size: 16px; }
 
 @media screen and (max-width: 480px) {
