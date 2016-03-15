@@ -909,7 +909,8 @@ body {
   /* line 21, _about.scss */
   .mobile-social-icons {
     margin: auto;
-    display: inline; } }
+    padding: 10px;
+    display: inline-flex; } }
 /* line 9, site.css.scss */
 body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
