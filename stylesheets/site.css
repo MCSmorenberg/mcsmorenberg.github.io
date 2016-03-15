@@ -731,12 +731,12 @@ table {
 /* line 1, _font.scss */
 h2 {
   font-size: 28px;
-  line-height: 34px; }
+  line-height: 32px; }
 
 /* line 6, _font.scss */
 h3 {
   font-size: 22px;
-  line-height: 18px;
+  line-height: 20px;
   color: #80008f; }
 
 /* line 12, _font.scss */
