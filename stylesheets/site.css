@@ -897,13 +897,19 @@ body {
 
 /* line 10, _about.scss */
 .mobile-social-icons {
+  margin: auto;
   display: none; }
 
 @media screen and (max-width: 767px) {
-  /* line 15, _about.scss */
+  /* line 16, _about.scss */
   .about {
     padding-left: 5px;
-    padding-right: 5px; } }
+    padding-right: 5px; }
+
+  /* line 21, _about.scss */
+  .mobile-social-icons {
+    margin: auto;
+    display: inline-block; } }
 /* line 9, site.css.scss */
 body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
