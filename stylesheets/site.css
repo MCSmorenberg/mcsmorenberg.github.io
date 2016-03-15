@@ -746,18 +746,18 @@ p {
 @media screen and (max-width: 480px) {
   /* line 17, _font.scss */
   h2 {
-    font-size: 20px; }
+    font-size: 22px; }
 
   /* line 21, _font.scss */
   h3 {
-    font-size: 16px; }
+    font-size: 18px; }
 
   /* line 25, _font.scss */
   p {
-    font-size: 10px; } }
+    font-size: 12px; } }
 /* line 2, _main.scss */
 .navbar-brand {
-  font-size: 20px;
+  font-size: 22px;
   font-family: "VT323";
   color: black !important;
   padding: 14px 25px 14px 25px; }
@@ -772,7 +772,7 @@ p {
 
 /* line 17, _main.scss */
 .navbar-nav li {
-  font-size: 18px !important;
+  font-size: 20px !important;
   margin-left: 20px;
   display: block; }
 
@@ -804,7 +804,7 @@ p {
 
 /* line 50, _main.scss */
 .social-icon {
-  padding: 3px 5px 3px 5px; }
+  padding: 3px 7px 3px 7px; }
 
 @media screen and (max-width: 767px) {
   /* line 56, _main.scss */
