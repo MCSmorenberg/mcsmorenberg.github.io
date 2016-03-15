@@ -743,16 +743,20 @@ h3 {
 p {
   font-size: 16px; }
 
+/* line 16, _font.scss */
+li {
+  font-size: 16px; }
+
 @media screen and (max-width: 480px) {
-  /* line 17, _font.scss */
+  /* line 21, _font.scss */
   h2 {
     font-size: 22px; }
 
-  /* line 21, _font.scss */
+  /* line 25, _font.scss */
   h3 {
     font-size: 18px; }
 
-  /* line 25, _font.scss */
+  /* line 29, _font.scss */
   p {
     font-size: 12px; } }
 /* line 2, _main.scss */
