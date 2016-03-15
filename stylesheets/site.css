@@ -750,17 +750,19 @@ li {
 @media screen and (max-width: 480px) {
   /* line 21, _font.scss */
   h2 {
-    font-size: 22px; }
+    font-size: 22px;
+    line-height: 26px; }
 
-  /* line 25, _font.scss */
+  /* line 26, _font.scss */
   h3 {
-    font-size: 18px; }
+    font-size: 18px;
+    line-height: 18px; }
 
-  /* line 29, _font.scss */
+  /* line 31, _font.scss */
   p {
     font-size: 12px; }
 
-  /* line 33, _font.scss */
+  /* line 35, _font.scss */
   li {
     font-size: 12px; } }
 /* line 2, _main.scss */
