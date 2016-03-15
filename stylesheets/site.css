@@ -758,6 +758,10 @@ li {
 
   /* line 29, _font.scss */
   p {
+    font-size: 12px; }
+
+  /* line 33, _font.scss */
+  li {
     font-size: 12px; } }
 /* line 2, _main.scss */
 .navbar-brand {
