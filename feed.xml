@@ -10,11 +10,11 @@
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>Codaisseur</title>
-    <link rel="alternate" href="http://blog.url.com/2016/03/08/Codaisseur/"/>
-    <id>http://blog.url.com/2016/03/08/Codaisseur/</id>
+    <title>ReactJS Routing</title>
+    <link rel="alternate" href="http://blog.url.com/2016/03/08/ReactJSRouting/"/>
+    <id>http://blog.url.com/2016/03/08/ReactJSRouting/</id>
     <published>2016-03-08T01:00:00+01:00</published>
-    <updated>2016-03-14T14:50:19+01:00</updated>
+    <updated>2016-03-15T11:49:53+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -40,15 +40,15 @@
 &lt;span class="kr"&gt;import&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;Router&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;Route&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;IndexRoute&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;Link&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;browserHistory&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="nx"&gt;from&lt;/span&gt; &lt;span class="s1"&gt;'react-router'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="kr"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;App&lt;/span&gt; &lt;span class="nx"&gt;from&lt;/span&gt; &lt;span class="s1"&gt;'./App'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="kr"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;Home&lt;/span&gt; &lt;span class="nx"&gt;from&lt;/span&gt; &lt;span class="s1"&gt;'./Home'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="kr"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;ParcList&lt;/span&gt; &lt;span class="nx"&gt;from&lt;/span&gt; &lt;span class="s1"&gt;'./ParcList'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="kr"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;Parc&lt;/span&gt; &lt;span class="nx"&gt;from&lt;/span&gt; &lt;span class="s1"&gt;'./Parc'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="kr"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;GamesList&lt;/span&gt; &lt;span class="nx"&gt;from&lt;/span&gt; &lt;span class="s1"&gt;'./GamesList'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="kr"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;Game&lt;/span&gt; &lt;span class="nx"&gt;from&lt;/span&gt; &lt;span class="s1"&gt;'./Game'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 
 &lt;span class="nx"&gt;ReactDOM&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;render&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;
   &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;Router&lt;/span&gt; &lt;span class="nx"&gt;history&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nx"&gt;browserHistory&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
     &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;Route&lt;/span&gt; &lt;span class="nx"&gt;path&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;"/"&lt;/span&gt; &lt;span class="nx"&gt;component&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nx"&gt;App&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
       &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;IndexRoute&lt;/span&gt; &lt;span class="nx"&gt;component&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nx"&gt;Home&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="sr"&gt;/&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
-&lt;/span&gt;      &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;Route&lt;/span&gt; &lt;span class="nx"&gt;path&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;"/parclist"&lt;/span&gt; &lt;span class="nx"&gt;component&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nx"&gt;ParcList&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="sr"&gt;/&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
-&lt;/span&gt;      &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;Route&lt;/span&gt; &lt;span class="nx"&gt;path&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;"/parc/:parcId"&lt;/span&gt; &lt;span class="nx"&gt;component&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nx"&gt;Parc&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="sr"&gt;/&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
+&lt;/span&gt;      &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;Route&lt;/span&gt; &lt;span class="nx"&gt;path&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;"/gameslist"&lt;/span&gt; &lt;span class="nx"&gt;component&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nx"&gt;GamesList&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="sr"&gt;/&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
+&lt;/span&gt;      &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;Route&lt;/span&gt; &lt;span class="nx"&gt;path&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;"/game/:gameID"&lt;/span&gt; &lt;span class="nx"&gt;component&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nx"&gt;Game&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="sr"&gt;/&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
 &lt;/span&gt;    &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/Route&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
 &lt;/span&gt;  &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/Router&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
 &lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getElementById&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'root'&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
