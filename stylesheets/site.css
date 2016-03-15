@@ -800,12 +800,12 @@ p {
 .navbar-right {
   display: inline-flex;
   position: absolute;
-  top: 11px;
+  top: 5px;
   right: 33px; }
 
 /* line 51, _main.scss */
 .social-icon {
-  padding: 0px 7px 3px 7px; }
+  padding: 3px 7px 3px 7px; }
 
 @media screen and (max-width: 767px) {
   /* line 57, _main.scss */
