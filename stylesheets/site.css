@@ -800,59 +800,63 @@ p {
 .navbar-right {
   display: inline-flex;
   position: absolute;
-  top: 5px;
+  top: 6px;
   right: 33px; }
 
 /* line 51, _main.scss */
-.social-icon {
+.social-icon-linkedin {
   padding: 3px 7px 3px 7px; }
 
+/* line 55, _main.scss */
+.social-icon-github {
+  padding: 2px 7px 4px 7px; }
+
 @media screen and (max-width: 767px) {
-  /* line 57, _main.scss */
+  /* line 61, _main.scss */
   .navbar-right {
     display: none; }
 
-  /* line 61, _main.scss */
+  /* line 65, _main.scss */
   .social-icon {
     display: none; } }
-/* line 68, _main.scss */
+/* line 72, _main.scss */
 .navbar-toggle {
   height: 33px !important; }
 
-/* line 72, _main.scss */
+/* line 76, _main.scss */
 .icon-bar {
   height: 2px !important; }
 
-/* line 76, _main.scss */
+/* line 80, _main.scss */
 #myNavbar {
   background-color: #4CA6A6;
   text-align: center;
   margin-left: auto !important;
   margin-right: auto !important; }
 
-/* line 83, _main.scss */
+/* line 87, _main.scss */
 .collapse {
   background-color: #4CA6A6;
   text-align: center;
   margin-left: auto !important;
   margin-right: auto !important; }
 
-/* line 92, _main.scss */
+/* line 96, _main.scss */
 body {
   margin-top: 70px; }
 
-/* line 96, _main.scss */
+/* line 100, _main.scss */
 .main {
   margin-left: 70px;
   margin-right: 70px; }
 
 @media screen and (max-width: 767px) {
-  /* line 102, _main.scss */
+  /* line 106, _main.scss */
   .main {
     margin-left: 35px;
     margin-right: 35px; } }
 @media screen and (max-width: 480px) {
-  /* line 109, _main.scss */
+  /* line 113, _main.scss */
   .main {
     margin-left: 0;
     margin-right: 0; } }
