@@ -805,7 +805,7 @@ p {
 
 /* line 51, _main.scss */
 .social-icon {
-  padding: 3px 7px 3px 7px; }
+  padding: 0px 7px 3px 7px; }
 
 @media screen and (max-width: 767px) {
   /* line 57, _main.scss */
