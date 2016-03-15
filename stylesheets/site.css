@@ -897,19 +897,18 @@ body {
 
 /* line 10, _about.scss */
 .mobile-social-icons {
-  margin: auto;
   display: none; }
 
 @media screen and (max-width: 767px) {
-  /* line 16, _about.scss */
+  /* line 15, _about.scss */
   .about {
     padding-left: 5px;
     padding-right: 5px; }
 
-  /* line 21, _about.scss */
+  /* line 20, _about.scss */
   .mobile-social-icons {
     margin: auto;
-    padding: 10px;
+    padding: 10px 0 15px 15px;
     display: inline-flex; } }
 /* line 9, site.css.scss */
 body {
