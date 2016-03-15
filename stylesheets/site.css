@@ -773,12 +773,12 @@ p {
 /* line 17, _main.scss */
 .navbar-nav li {
   font-size: 20px !important;
-  margin-top: 10px;
   margin-left: 20px;
   display: block; }
 
-/* line 24, _main.scss */
+/* line 23, _main.scss */
 .nav > li > a {
+  margin-top: 5px;
   text-align: center !important;
   color: black !important; }
 
