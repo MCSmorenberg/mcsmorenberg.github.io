@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/2016/03/18/FunctionsSnake/"/>
     <id>http://blog.url.com/2016/03/18/FunctionsSnake/</id>
     <published>2016-03-18T01:00:00+01:00</published>
-    <updated>2016-03-18T13:46:12+01:00</updated>
+    <updated>2016-03-18T13:57:44+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -33,7 +33,15 @@
 13
 14
 15
-16&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;
+16
+17
+18
+19
+20&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;
+  &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;newFoodPosition&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+
+  &lt;span class="p"&gt;};&lt;/span&gt;
+
   &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;renderBlock&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
   &lt;span class="p"&gt;};&lt;/span&gt;
 
