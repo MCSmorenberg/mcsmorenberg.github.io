@@ -853,20 +853,21 @@ li {
 
 /* line 96, _main.scss */
 body {
-  margin-top: 70px; }
+  margin-top: 70px;
+  margin-bottom: 30px; }
 
-/* line 100, _main.scss */
+/* line 101, _main.scss */
 .main {
   margin-left: 70px;
   margin-right: 70px; }
 
 @media screen and (max-width: 767px) {
-  /* line 106, _main.scss */
+  /* line 107, _main.scss */
   .main {
     margin-left: 35px;
     margin-right: 35px; } }
 @media screen and (max-width: 480px) {
-  /* line 113, _main.scss */
+  /* line 114, _main.scss */
   .main {
     margin-left: 0;
     margin-right: 0; } }
