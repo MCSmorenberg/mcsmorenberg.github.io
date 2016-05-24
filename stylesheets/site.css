@@ -826,59 +826,85 @@ li {
   padding: 2px 7px 4px 7px; }
 
 /* line 64, _main.scss */
+.welcomeImg {
+  width: 120%;
+  height: 400px;
+  position: fixed;
+  overflow: hidden;
+  top: 53px;
+  left: 0; }
+
+/* line 73, _main.scss */
 .welcomeText {
-  text-align: center; }
+  text-align: center;
+  margin-top: 400px; }
 
 @media screen and (max-width: 767px) {
-  /* line 70, _main.scss */
+  /* line 80, _main.scss */
   .navbar-right {
     display: none; }
 
-  /* line 74, _main.scss */
+  /* line 84, _main.scss */
   .social-icon {
     display: none; } }
-/* line 81, _main.scss */
+/* line 92, _main.scss */
 .navbar-toggle {
   height: 33px !important; }
 
-/* line 85, _main.scss */
+/* line 96, _main.scss */
 .icon-bar {
   height: 2px !important; }
 
-/* line 89, _main.scss */
+/* line 100, _main.scss */
 #myNavbar {
   background-color: #4CA6A6;
   text-align: center;
   margin-left: auto !important;
   margin-right: auto !important; }
 
-/* line 96, _main.scss */
+/* line 107, _main.scss */
 .collapse {
   background-color: #4CA6A6;
   text-align: center;
   margin-left: auto !important;
   margin-right: auto !important; }
 
-/* line 105, _main.scss */
+/* line 116, _main.scss */
 body {
   margin-top: 70px;
   margin-bottom: 30px; }
 
-/* line 110, _main.scss */
+/* line 121, _main.scss */
 .main {
   margin-left: 70px;
   margin-right: 70px; }
 
 @media screen and (max-width: 767px) {
-  /* line 116, _main.scss */
+  /* line 127, _main.scss */
   .main {
     margin-left: 35px;
-    margin-right: 35px; } }
+    margin-right: 35px; }
+
+  /* line 132, _main.scss */
+  .welcomeText {
+    margin-top: 300px; }
+
+  /* line 136, _main.scss */
+  .welcomeImg {
+    height: 300px; } }
 @media screen and (max-width: 480px) {
-  /* line 123, _main.scss */
+  /* line 142, _main.scss */
   .main {
     margin-left: 0;
-    margin-right: 0; } }
+    margin-right: 0; }
+
+  /* line 147, _main.scss */
+  .welcomeText {
+    margin-top: 200px; }
+
+  /* line 151, _main.scss */
+  .welcomeImg {
+    height: 200px; } }
 /* line 2, _projects.scss */
 .project {
   background-color: #e7e7e7;
