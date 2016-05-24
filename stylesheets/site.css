@@ -767,7 +767,7 @@ li {
     font-size: 12px; } }
 /* line 1, _main.scss */
 .background {
-  background-color: #f9f4ee; }
+  background-color: #f1f2f4; }
 
 /* line 6, _main.scss */
 .navbar-brand {
@@ -825,53 +825,57 @@ li {
 .social-icon-github {
   padding: 2px 7px 4px 7px; }
 
+/* line 64, _main.scss */
+.welcomeText {
+  text-align: center; }
+
 @media screen and (max-width: 767px) {
-  /* line 65, _main.scss */
+  /* line 70, _main.scss */
   .navbar-right {
     display: none; }
 
-  /* line 69, _main.scss */
+  /* line 74, _main.scss */
   .social-icon {
     display: none; } }
-/* line 76, _main.scss */
+/* line 81, _main.scss */
 .navbar-toggle {
   height: 33px !important; }
 
-/* line 80, _main.scss */
+/* line 85, _main.scss */
 .icon-bar {
   height: 2px !important; }
 
-/* line 84, _main.scss */
+/* line 89, _main.scss */
 #myNavbar {
   background-color: #4CA6A6;
   text-align: center;
   margin-left: auto !important;
   margin-right: auto !important; }
 
-/* line 91, _main.scss */
+/* line 96, _main.scss */
 .collapse {
   background-color: #4CA6A6;
   text-align: center;
   margin-left: auto !important;
   margin-right: auto !important; }
 
-/* line 100, _main.scss */
+/* line 105, _main.scss */
 body {
   margin-top: 70px;
   margin-bottom: 30px; }
 
-/* line 105, _main.scss */
+/* line 110, _main.scss */
 .main {
   margin-left: 70px;
   margin-right: 70px; }
 
 @media screen and (max-width: 767px) {
-  /* line 111, _main.scss */
+  /* line 116, _main.scss */
   .main {
     margin-left: 35px;
     margin-right: 35px; } }
 @media screen and (max-width: 480px) {
-  /* line 118, _main.scss */
+  /* line 123, _main.scss */
   .main {
     margin-left: 0;
     margin-right: 0; } }
