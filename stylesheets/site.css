@@ -852,7 +852,7 @@ li {
 /* line 92, _main.scss */
 .welcomeBody {
   opacity: 0;
-  transform: translateX(-20%); }
+  transform: translateX(20%); }
 
 /* line 97, _main.scss */
 .welcomeBody.has-landed-to {
