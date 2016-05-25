@@ -1014,15 +1014,10 @@ html, body {
   display: none; }
 
 @media screen and (max-width: 767px) {
-  /* line 15, _about.scss */
-  .about {
-    padding-left: 5px;
-    padding-right: 5px; }
-
   /* line 20, _about.scss */
   .mobile-social-icons {
     margin: auto;
-    padding: 10px 0 30px 15px;
+    padding: 10px 0 20px 15px;
     display: inline-flex; } }
 /* line 9, site.css.scss */
 body {
