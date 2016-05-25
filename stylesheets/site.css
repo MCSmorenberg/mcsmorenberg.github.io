@@ -838,72 +838,83 @@ li {
   text-align: center;
   margin-top: 400px; }
 
+/* line 81, _main.scss */
+.welcomeHeader {
+  opacity: 0;
+  transform: translateX(20%); }
+
+/* line 86, _main.scss */
+.welcomeHeader.has-landed {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 800ms ease-in-out; }
+
 @media screen and (max-width: 767px) {
-  /* line 83, _main.scss */
+  /* line 94, _main.scss */
   .navbar-right {
     display: none; }
 
-  /* line 87, _main.scss */
+  /* line 98, _main.scss */
   .social-icon {
     display: none; } }
-/* line 95, _main.scss */
+/* line 106, _main.scss */
 .navbar-toggle {
   height: 33px !important; }
 
-/* line 99, _main.scss */
+/* line 110, _main.scss */
 .icon-bar {
   height: 2px !important; }
 
-/* line 103, _main.scss */
+/* line 114, _main.scss */
 #myNavbar {
   background-color: #03A89E;
   text-align: center;
   margin-left: auto !important;
   margin-right: auto !important; }
 
-/* line 110, _main.scss */
+/* line 121, _main.scss */
 .collapse {
   background-color: #03A89E;
   text-align: center;
   margin-left: auto !important;
   margin-right: auto !important; }
 
-/* line 119, _main.scss */
+/* line 130, _main.scss */
 body {
   margin-top: 70px;
   margin-bottom: 30px; }
 
-/* line 124, _main.scss */
+/* line 135, _main.scss */
 .main {
   margin-left: 70px;
   margin-right: 70px; }
 
 @media screen and (max-width: 767px) {
-  /* line 130, _main.scss */
+  /* line 141, _main.scss */
   .main {
     margin-left: 35px;
     margin-right: 35px; }
 
-  /* line 135, _main.scss */
+  /* line 146, _main.scss */
   .welcomeText {
     margin-top: 300px; }
 
-  /* line 139, _main.scss */
+  /* line 150, _main.scss */
   .welcomeImg {
-    height: 300px; } }
+    height: 250px; } }
 @media screen and (max-width: 480px) {
-  /* line 145, _main.scss */
+  /* line 156, _main.scss */
   .main {
     margin-left: 0;
     margin-right: 0; }
 
-  /* line 150, _main.scss */
+  /* line 161, _main.scss */
   .welcomeText {
     margin-top: 200px; }
 
-  /* line 154, _main.scss */
+  /* line 165, _main.scss */
   .welcomeImg {
-    height: 200px; } }
+    height: 150px; } }
 /* line 2, _projects.scss */
 .project {
   background-color: #e7e7e7;
