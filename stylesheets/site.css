@@ -847,83 +847,89 @@ li {
 .welcomeHeader.has-landed {
   opacity: 1;
   transform: translateX(0);
+  -webkit-transition: all 800ms ease-in-out;
+  -moz-transition: all 800ms ease-in-out;
+  -o-transition: all 800ms ease-in-out;
   transition: all 800ms ease-in-out; }
 
-/* line 92, _main.scss */
+/* line 95, _main.scss */
 .welcomeBody {
   opacity: 0;
   transform: translateX(20%); }
 
-/* line 97, _main.scss */
+/* line 100, _main.scss */
 .welcomeBody.has-landed-to {
   opacity: 1;
   transform: translateX(0);
+  -webkit-transition: all 800ms ease-in-out;
+  -moz-transition: all 800ms ease-in-out;
+  -o-transition: all 800ms ease-in-out;
   transition: all 800ms ease-in-out; }
 
 @media screen and (max-width: 767px) {
-  /* line 105, _main.scss */
+  /* line 111, _main.scss */
   .navbar-right {
     display: none; }
 
-  /* line 109, _main.scss */
+  /* line 115, _main.scss */
   .social-icon {
     display: none; } }
-/* line 117, _main.scss */
+/* line 123, _main.scss */
 .navbar-toggle {
   height: 33px !important; }
 
-/* line 121, _main.scss */
+/* line 127, _main.scss */
 .icon-bar {
   height: 2px !important; }
 
-/* line 125, _main.scss */
+/* line 131, _main.scss */
 #myNavbar {
   background-color: #03A89E;
   text-align: center;
   margin-left: auto !important;
   margin-right: auto !important; }
 
-/* line 132, _main.scss */
+/* line 138, _main.scss */
 .collapse {
   background-color: #03A89E;
   text-align: center;
   margin-left: auto !important;
   margin-right: auto !important; }
 
-/* line 141, _main.scss */
+/* line 147, _main.scss */
 body {
   margin-top: 70px;
   margin-bottom: 30px; }
 
-/* line 146, _main.scss */
+/* line 152, _main.scss */
 .main {
   margin-left: 70px;
   margin-right: 70px; }
 
 @media screen and (max-width: 767px) {
-  /* line 152, _main.scss */
+  /* line 158, _main.scss */
   .main {
     margin-left: 35px;
     margin-right: 35px; }
 
-  /* line 157, _main.scss */
+  /* line 163, _main.scss */
   .welcomeText {
     margin-top: 300px; }
 
-  /* line 161, _main.scss */
+  /* line 167, _main.scss */
   .welcomeImg {
     height: 250px; } }
 @media screen and (max-width: 480px) {
-  /* line 167, _main.scss */
+  /* line 173, _main.scss */
   .main {
     margin-left: 0;
     margin-right: 0; }
 
-  /* line 172, _main.scss */
+  /* line 178, _main.scss */
   .welcomeText {
     margin-top: 200px; }
 
-  /* line 176, _main.scss */
+  /* line 182, _main.scss */
   .welcomeImg {
     height: 150px; } }
 /* line 2, _projects.scss */
