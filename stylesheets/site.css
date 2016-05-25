@@ -841,7 +841,7 @@ li {
 /* line 81, _main.scss */
 .welcomeHeader {
   opacity: 0;
-  transform: translateX(20%); }
+  transform: translateX(50%); }
 
 /* line 86, _main.scss */
 .welcomeHeader.has-landed {
@@ -855,7 +855,7 @@ li {
 /* line 95, _main.scss */
 .welcomeBody {
   opacity: 0;
-  transform: translateX(20%); }
+  transform: translateX(50%); }
 
 /* line 100, _main.scss */
 .welcomeBody.has-landed-to {

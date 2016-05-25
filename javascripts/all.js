@@ -11,6 +11,6 @@
 
   setTimeout(function(){
     console.log(welcomeBody);
-    welcomeBody.classlist.add("has-landed-to");
-  }, 1300);
+    welcomeBody.classList.add("has-landed-to");
+  }, 1900);
 })();
