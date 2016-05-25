@@ -7,10 +7,10 @@
   setTimeout(function(){
     welcomeHeader.classList.add("has-landed");
 
-  }, 900);
+  }, 700);
 
   setTimeout(function(){
     console.log(welcomeBody);
     welcomeBody.classList.add("has-landed-to");
-  }, 1900);
+  }, 1700);
 })();
