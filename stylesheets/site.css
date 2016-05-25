@@ -824,27 +824,32 @@ li {
 .social-icon-github {
   padding: 2px 7px 4px 7px; }
 
-/* line 66, _main.scss */
+/* line 65, _main.scss */
+.wrapper {
+  padding-bottom: 60px; }
+
+/* line 70, _main.scss */
 .welcomeImg {
   width: 100%;
   height: 400px;
   position: absolute;
   overflow: hidden;
   top: -19px;
-  left: 0px; }
-
-/* line 76, _main.scss */
-.welcomeText {
-  text-align: center;
-  margin-top: 400px; }
+  left: 0px;
+  margin-top: 70px; }
 
 /* line 81, _main.scss */
+.welcomeText {
+  text-align: center;
+  margin-top: 410px; }
+
+/* line 86, _main.scss */
 .welcomeHeader {
   opacity: 0;
   transform: translateX(50%);
   font-size: 30px; }
 
-/* line 87, _main.scss */
+/* line 92, _main.scss */
 .welcomeHeader.has-landed {
   opacity: 1;
   transform: translateX(0);
@@ -853,13 +858,13 @@ li {
   -o-transition: all 800ms ease-in-out;
   transition: all 800ms ease-in-out; }
 
-/* line 96, _main.scss */
+/* line 101, _main.scss */
 .welcomeBody {
   opacity: 0;
   transform: translateX(50%);
   font-size: 20px; }
 
-/* line 102, _main.scss */
+/* line 107, _main.scss */
 .welcomeBody.has-landed-to {
   opacity: 1;
   transform: translateX(0);
@@ -869,88 +874,120 @@ li {
   transition: all 800ms ease-in-out; }
 
 @media screen and (max-width: 767px) {
-  /* line 113, _main.scss */
+  /* line 118, _main.scss */
   .navbar-right {
     display: none; }
 
-  /* line 117, _main.scss */
+  /* line 122, _main.scss */
   .social-icon {
     display: none; } }
-/* line 125, _main.scss */
+/* line 128, _main.scss */
 .navbar-toggle {
   height: 33px !important; }
 
-/* line 129, _main.scss */
+/* line 132, _main.scss */
 .icon-bar {
   height: 2px !important; }
 
-/* line 133, _main.scss */
+/* line 136, _main.scss */
 #myNavbar {
   background-color: #03A89E;
   text-align: center;
   margin-left: auto !important;
   margin-right: auto !important; }
 
-/* line 140, _main.scss */
+/* line 143, _main.scss */
 .collapse {
   background-color: #03A89E;
   text-align: center;
   margin-left: auto !important;
   margin-right: auto !important; }
 
-/* line 149, _main.scss */
-body {
-  margin-top: 70px;
-  margin-bottom: 30px; }
-
-/* line 154, _main.scss */
+/* line 151, _main.scss */
 .main {
   margin-left: 70px;
-  margin-right: 70px; }
+  margin-right: 70px;
+  padding-top: 60px;
+  padding-bottom: 20px; }
+
+/* line 159, _main.scss */
+* {
+  margin: 0; }
+
+/* line 163, _main.scss */
+html, body {
+  height: 100%;
+  width: 100%; }
+
+/* line 168, _main.scss */
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -38px; }
+
+/* line 175, _main.scss */
+.footer {
+  height: 38px;
+  background-color: gray;
+  text-align: center; }
+
+/* line 181, _main.scss */
+.footer p {
+  font-size: 14px; }
+
+/* line 185, _main.scss */
+.copyright-text {
+  padding-top: 5px;
+  color: white; }
 
 @media screen and (max-width: 767px) {
-  /* line 160, _main.scss */
+  /* line 192, _main.scss */
   .main {
     margin-left: 35px;
     margin-right: 35px; }
 
-  /* line 165, _main.scss */
+  /* line 197, _main.scss */
   .welcomeText {
-    margin-top: 250px; }
+    margin-top: 260px; }
 
-  /* line 169, _main.scss */
+  /* line 201, _main.scss */
   .welcomeImg {
     height: 250px; }
 
-  /* line 173, _main.scss */
+  /* line 205, _main.scss */
   .welcomeHeader {
     font-size: 24px; }
 
-  /* line 177, _main.scss */
+  /* line 209, _main.scss */
   .welcomeBody {
     font-size: 16px; } }
 @media screen and (max-width: 480px) {
-  /* line 183, _main.scss */
+  /* line 215, _main.scss */
   .main {
     margin-left: 0;
     margin-right: 0; }
 
-  /* line 188, _main.scss */
+  /* line 220, _main.scss */
   .welcomeText {
-    margin-top: 150px; }
+    margin-top: 170px; }
 
-  /* line 192, _main.scss */
+  /* line 224, _main.scss */
   .welcomeImg {
-    height: 150px; }
+    height: 160px; }
 
-  /* line 196, _main.scss */
+  /* line 228, _main.scss */
   .welcomeHeader {
     font-size: 18px; }
 
-  /* line 200, _main.scss */
+  /* line 232, _main.scss */
   .welcomeBody {
     font-size: 12px; } }
-/* line 2, _projects.scss */
+/* line 1, _projects.scss */
+.projects-wrapper {
+  padding-top: 10px; }
+
+/* line 5, _projects.scss */
 .project {
   background-color: #e7e7e7;
   box-shadow: 2px 3px 2px #9f9f9f;
@@ -958,7 +995,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px; }
 
-/* line 10, _projects.scss */
+/* line 13, _projects.scss */
 .project:hover {
   -webkit-transition: all 200ms ease-in-out;
   -moz-transition: all 200ms ease-in-out;
@@ -971,11 +1008,6 @@ body {
 /* line 1, _about.scss */
 .title {
   padding-bottom: 10px; }
-
-/* line 5, _about.scss */
-.about {
-  padding-left: 20px;
-  padding-right: 20px; }
 
 /* line 10, _about.scss */
 .mobile-social-icons {

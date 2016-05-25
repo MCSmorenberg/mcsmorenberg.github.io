@@ -6,7 +6,6 @@
   // Welcome text onload
   setTimeout(function(){
     welcomeHeader.classList.add("has-landed");
-
   }, 700);
 
   setTimeout(function(){
