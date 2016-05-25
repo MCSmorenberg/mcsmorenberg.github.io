@@ -841,9 +841,10 @@ li {
 /* line 81, _main.scss */
 .welcomeHeader {
   opacity: 0;
-  transform: translateX(50%); }
+  transform: translateX(50%);
+  font-size: 30px; }
 
-/* line 86, _main.scss */
+/* line 87, _main.scss */
 .welcomeHeader.has-landed {
   opacity: 1;
   transform: translateX(0);
@@ -852,12 +853,13 @@ li {
   -o-transition: all 800ms ease-in-out;
   transition: all 800ms ease-in-out; }
 
-/* line 95, _main.scss */
+/* line 96, _main.scss */
 .welcomeBody {
   opacity: 0;
-  transform: translateX(50%); }
+  transform: translateX(50%);
+  font-size: 20px; }
 
-/* line 100, _main.scss */
+/* line 102, _main.scss */
 .welcomeBody.has-landed-to {
   opacity: 1;
   transform: translateX(0);
@@ -867,71 +869,87 @@ li {
   transition: all 800ms ease-in-out; }
 
 @media screen and (max-width: 767px) {
-  /* line 111, _main.scss */
+  /* line 113, _main.scss */
   .navbar-right {
     display: none; }
 
-  /* line 115, _main.scss */
+  /* line 117, _main.scss */
   .social-icon {
     display: none; } }
-/* line 123, _main.scss */
+/* line 125, _main.scss */
 .navbar-toggle {
   height: 33px !important; }
 
-/* line 127, _main.scss */
+/* line 129, _main.scss */
 .icon-bar {
   height: 2px !important; }
 
-/* line 131, _main.scss */
+/* line 133, _main.scss */
 #myNavbar {
   background-color: #03A89E;
   text-align: center;
   margin-left: auto !important;
   margin-right: auto !important; }
 
-/* line 138, _main.scss */
+/* line 140, _main.scss */
 .collapse {
   background-color: #03A89E;
   text-align: center;
   margin-left: auto !important;
   margin-right: auto !important; }
 
-/* line 147, _main.scss */
+/* line 149, _main.scss */
 body {
   margin-top: 70px;
   margin-bottom: 30px; }
 
-/* line 152, _main.scss */
+/* line 154, _main.scss */
 .main {
   margin-left: 70px;
   margin-right: 70px; }
 
 @media screen and (max-width: 767px) {
-  /* line 158, _main.scss */
+  /* line 160, _main.scss */
   .main {
     margin-left: 35px;
     margin-right: 35px; }
 
-  /* line 163, _main.scss */
+  /* line 165, _main.scss */
   .welcomeText {
     margin-top: 250px; }
 
-  /* line 167, _main.scss */
+  /* line 169, _main.scss */
   .welcomeImg {
-    height: 250px; } }
-@media screen and (max-width: 480px) {
+    height: 250px; }
+
   /* line 173, _main.scss */
+  .welcomeHeader {
+    font-size: 24px; }
+
+  /* line 177, _main.scss */
+  .welcomeBody {
+    font-size: 16px; } }
+@media screen and (max-width: 480px) {
+  /* line 183, _main.scss */
   .main {
     margin-left: 0;
     margin-right: 0; }
 
-  /* line 178, _main.scss */
+  /* line 188, _main.scss */
   .welcomeText {
     margin-top: 150px; }
 
-  /* line 182, _main.scss */
+  /* line 192, _main.scss */
   .welcomeImg {
-    height: 150px; } }
+    height: 150px; }
+
+  /* line 196, _main.scss */
+  .welcomeHeader {
+    font-size: 18px; }
+
+  /* line 200, _main.scss */
+  .welcomeBody {
+    font-size: 12px; } }
 /* line 2, _projects.scss */
 .project {
   background-color: #e7e7e7;
