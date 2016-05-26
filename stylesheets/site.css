@@ -882,7 +882,7 @@ html, body {
 
 /* line 123, _main.scss */
 .copyright-text {
-  padding-top: 5px;
+  padding-top: 8px;
   color: #d3d3d3; }
 
 @media screen and (max-width: 767px) {
@@ -910,7 +910,7 @@ html, body {
 
   /* line 156, _main.scss */
   .copyright-text {
-    padding-top: 7px; } }
+    padding-top: 10px; } }
 /* line 2, _home.scss */
 .welcomeImg {
   width: 100%;
