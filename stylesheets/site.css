@@ -825,10 +825,93 @@ li {
   padding: 2px 7px 4px 7px; }
 
 /* line 65, _main.scss */
+.navbar-toggle {
+  height: 33px !important; }
+
+/* line 69, _main.scss */
+.icon-bar {
+  height: 2px !important; }
+
+/* line 73, _main.scss */
+#myNavbar {
+  background-color: #03A89E;
+  text-align: center;
+  margin-left: auto !important;
+  margin-right: auto !important; }
+
+/* line 80, _main.scss */
+.collapse {
+  background-color: #03A89E;
+  text-align: center;
+  margin-left: auto !important;
+  margin-right: auto !important; }
+
+/* line 88, _main.scss */
+.main {
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-top: 60px;
+  padding-bottom: 20px; }
+
+/* line 96, _main.scss */
+* {
+  margin: 0; }
+
+/* line 100, _main.scss */
+html, body {
+  height: 100%;
+  width: 100%; }
+
+/* line 105, _main.scss */
 .wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -38px;
   padding-bottom: 60px; }
 
-/* line 70, _main.scss */
+/* line 113, _main.scss */
+.footer {
+  height: 38px;
+  background-color: gray;
+  text-align: center; }
+
+/* line 119, _main.scss */
+.footer p {
+  font-size: 14px; }
+
+/* line 123, _main.scss */
+.copyright-text {
+  padding-top: 5px;
+  color: white; }
+
+@media screen and (max-width: 767px) {
+  /* line 131, _main.scss */
+  .navbar-right {
+    display: none; }
+
+  /* line 135, _main.scss */
+  .social-icon {
+    display: none; }
+
+  /* line 139, _main.scss */
+  .main {
+    margin-left: 35px;
+    margin-right: 35px; } }
+@media screen and (max-width: 480px) {
+  /* line 147, _main.scss */
+  .main {
+    margin-left: 0;
+    margin-right: 0; }
+
+  /* line 152, _main.scss */
+  .footer p {
+    font-size: 12px; }
+
+  /* line 156, _main.scss */
+  .copyright-text {
+    padding-top: 7px; } }
+/* line 2, _home.scss */
 .welcomeImg {
   width: 100%;
   height: 400px;
@@ -838,18 +921,18 @@ li {
   left: 0px;
   margin-top: 70px; }
 
-/* line 81, _main.scss */
+/* line 13, _home.scss */
 .welcomeText {
   text-align: center;
   margin-top: 410px; }
 
-/* line 86, _main.scss */
+/* line 19, _home.scss */
 .welcomeHeader {
   opacity: 0;
   transform: translateX(50%);
   font-size: 30px; }
 
-/* line 92, _main.scss */
+/* line 25, _home.scss */
 .welcomeHeader.has-landed {
   opacity: 1;
   transform: translateX(0);
@@ -858,13 +941,13 @@ li {
   -o-transition: all 800ms ease-in-out;
   transition: all 800ms ease-in-out; }
 
-/* line 101, _main.scss */
+/* line 34, _home.scss */
 .welcomeBody {
   opacity: 0;
   transform: translateX(50%);
   font-size: 20px; }
 
-/* line 107, _main.scss */
+/* line 40, _home.scss */
 .welcomeBody.has-landed-to {
   opacity: 1;
   transform: translateX(0);
@@ -874,115 +957,55 @@ li {
   transition: all 800ms ease-in-out; }
 
 @media screen and (max-width: 767px) {
-  /* line 118, _main.scss */
-  .navbar-right {
-    display: none; }
-
-  /* line 122, _main.scss */
-  .social-icon {
-    display: none; } }
-/* line 128, _main.scss */
-.navbar-toggle {
-  height: 33px !important; }
-
-/* line 132, _main.scss */
-.icon-bar {
-  height: 2px !important; }
-
-/* line 136, _main.scss */
-#myNavbar {
-  background-color: #03A89E;
-  text-align: center;
-  margin-left: auto !important;
-  margin-right: auto !important; }
-
-/* line 143, _main.scss */
-.collapse {
-  background-color: #03A89E;
-  text-align: center;
-  margin-left: auto !important;
-  margin-right: auto !important; }
-
-/* line 151, _main.scss */
-.main {
-  margin-left: 70px;
-  margin-right: 70px;
-  padding-top: 60px;
-  padding-bottom: 20px; }
-
-/* line 159, _main.scss */
-* {
-  margin: 0; }
-
-/* line 163, _main.scss */
-html, body {
-  height: 100%;
-  width: 100%; }
-
-/* line 168, _main.scss */
-.wrapper {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -38px; }
-
-/* line 175, _main.scss */
-.footer {
-  height: 38px;
-  background-color: gray;
-  text-align: center; }
-
-/* line 181, _main.scss */
-.footer p {
-  font-size: 14px; }
-
-/* line 185, _main.scss */
-.copyright-text {
-  padding-top: 5px;
-  color: white; }
-
-@media screen and (max-width: 767px) {
-  /* line 192, _main.scss */
+  /* line 55, _home.scss */
   .main {
     margin-left: 35px;
     margin-right: 35px; }
 
-  /* line 197, _main.scss */
+  /* line 60, _home.scss */
   .welcomeText {
     margin-top: 260px; }
 
-  /* line 201, _main.scss */
+  /* line 64, _home.scss */
   .welcomeImg {
     height: 250px; }
 
-  /* line 205, _main.scss */
+  /* line 68, _home.scss */
   .welcomeHeader {
     font-size: 24px; }
 
-  /* line 209, _main.scss */
+  /* line 72, _home.scss */
   .welcomeBody {
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  /* line 76, _home.scss */
+  .article h2 {
+    font-size: 22px; } }
 @media screen and (max-width: 480px) {
-  /* line 215, _main.scss */
+  /* line 82, _home.scss */
   .main {
     margin-left: 0;
     margin-right: 0; }
 
-  /* line 220, _main.scss */
+  /* line 87, _home.scss */
   .welcomeText {
     margin-top: 170px; }
 
-  /* line 224, _main.scss */
+  /* line 91, _home.scss */
   .welcomeImg {
     height: 160px; }
 
-  /* line 228, _main.scss */
+  /* line 95, _home.scss */
   .welcomeHeader {
-    font-size: 18px; }
+    font-size: 20px; }
 
-  /* line 232, _main.scss */
+  /* line 99, _home.scss */
   .welcomeBody {
-    font-size: 12px; } }
+    font-size: 14px; }
+
+  /* line 103, _home.scss */
+  .article h2 {
+    font-size: 16px; } }
 /* line 1, _projects.scss */
 .projects-wrapper {
   padding-top: 10px; }
@@ -1019,17 +1042,17 @@ html, body {
     margin: auto;
     padding: 10px 0 0 20px;
     display: inline-flex; } }
-/* line 9, site.css.scss */
+/* line 10, site.css.scss */
 body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em; }
 
-/* line 14, site.css.scss */
+/* line 15, site.css.scss */
 .logo img {
   height: 18.75em;
   margin-top: 6em; }
 
-/* line 19, site.css.scss */
+/* line 20, site.css.scss */
 h1 {
   color: rgba(0, 0, 0, 0.5);
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1037,13 +1060,13 @@ h1 {
   font-weight: 400;
   margin: 0; }
 
-/* line 27, site.css.scss */
+/* line 28, site.css.scss */
 .doc {
   margin: 3em 0;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.1em;
   font-weight: 300; }
-  /* line 33, site.css.scss */
+  /* line 34, site.css.scss */
   .doc a {
     border: 1px solid white;
     border-radius: 3px;
@@ -1051,13 +1074,13 @@ h1 {
     color: white;
     text-decoration: none;
     transition: color 0.1s linear; }
-    /* line 40, site.css.scss */
+    /* line 41, site.css.scss */
     .doc a:hover {
       background: rgba(0, 0, 0, 0.2);
       color: white;
       transition: all 0.15s linear; }
 
-/* line 48, site.css.scss */
+/* line 49, site.css.scss */
 .welcome {
   -webkit-animation-name: welcome;
   -webkit-animation-duration: .9s; }
