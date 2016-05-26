@@ -873,7 +873,7 @@ html, body {
 /* line 113, _main.scss */
 .footer {
   height: 38px;
-  background-color: gray;
+  background-color: #545454;
   text-align: center; }
 
 /* line 119, _main.scss */
@@ -883,7 +883,7 @@ html, body {
 /* line 123, _main.scss */
 .copyright-text {
   padding-top: 5px;
-  color: white; }
+  color: #d3d3d3; }
 
 @media screen and (max-width: 767px) {
   /* line 131, _main.scss */
@@ -924,15 +924,16 @@ html, body {
 /* line 13, _home.scss */
 .welcomeText {
   text-align: center;
-  margin-top: 410px; }
+  margin-top: 410px;
+  height: 70px; }
 
-/* line 19, _home.scss */
+/* line 20, _home.scss */
 .welcomeHeader {
   opacity: 0;
   transform: translateX(50%);
   font-size: 30px; }
 
-/* line 25, _home.scss */
+/* line 26, _home.scss */
 .welcomeHeader.has-landed {
   opacity: 1;
   transform: translateX(0);
@@ -941,13 +942,13 @@ html, body {
   -o-transition: all 800ms ease-in-out;
   transition: all 800ms ease-in-out; }
 
-/* line 34, _home.scss */
+/* line 35, _home.scss */
 .welcomeBody {
   opacity: 0;
   transform: translateX(50%);
   font-size: 20px; }
 
-/* line 40, _home.scss */
+/* line 41, _home.scss */
 .welcomeBody.has-landed-to {
   opacity: 1;
   transform: translateX(0);
@@ -956,57 +957,85 @@ html, body {
   -o-transition: all 800ms ease-in-out;
   transition: all 800ms ease-in-out; }
 
+/* line 51, _home.scss */
+.article-line {
+  width: 100%;
+  border-bottom: 2px solid gray; }
+
+/* line 56, _home.scss */
+.article {
+  margin-right: 25px; }
+
+/* line 60, _home.scss */
+.article h2 {
+  font-size: 20px;
+  line-height: 19px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid gray; }
+
+/* line 67, _home.scss */
+.article-date {
+  float: right; }
+
 @media screen and (max-width: 767px) {
-  /* line 55, _home.scss */
+  /* line 73, _home.scss */
   .main {
     margin-left: 35px;
     margin-right: 35px; }
 
-  /* line 60, _home.scss */
+  /* line 78, _home.scss */
   .welcomeText {
-    margin-top: 260px; }
+    margin-top: 260px;
+    height: 60px; }
 
-  /* line 64, _home.scss */
+  /* line 83, _home.scss */
   .welcomeImg {
     height: 250px; }
 
-  /* line 68, _home.scss */
+  /* line 87, _home.scss */
   .welcomeHeader {
-    font-size: 24px; }
+    font-size: 25px; }
 
-  /* line 72, _home.scss */
+  /* line 91, _home.scss */
   .welcomeBody {
-    font-size: 16px; }
+    font-size: 17px; }
 
-  /* line 76, _home.scss */
+  /* line 95, _home.scss */
   .article h2 {
-    font-size: 22px; } }
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 7px; }
+
+  /* line 101, _home.scss */
+  .article-date {
+    float: none; } }
 @media screen and (max-width: 480px) {
-  /* line 82, _home.scss */
+  /* line 107, _home.scss */
   .main {
     margin-left: 0;
     margin-right: 0; }
 
-  /* line 87, _home.scss */
+  /* line 112, _home.scss */
   .welcomeText {
+    height: 45px;
     margin-top: 170px; }
 
-  /* line 91, _home.scss */
+  /* line 117, _home.scss */
   .welcomeImg {
     height: 160px; }
 
-  /* line 95, _home.scss */
+  /* line 121, _home.scss */
   .welcomeHeader {
     font-size: 20px; }
 
-  /* line 99, _home.scss */
+  /* line 125, _home.scss */
   .welcomeBody {
     font-size: 12px; }
 
-  /* line 103, _home.scss */
+  /* line 129, _home.scss */
   .article h2 {
-    font-size: 16px;
-    line-height: 20px; } }
+    font-size: 14px;
+    line-height: 17px; } }
 /* line 1, _projects.scss */
 .projects-wrapper {
   padding-top: 10px; }
